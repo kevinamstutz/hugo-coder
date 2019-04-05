@@ -13,6 +13,14 @@
     padding: 10px 40px 10px 40px !important;
 }
 
+.uk-card-header {
+    padding: 15px 40px 15px 40px !important;
+}
+
+.uk-card-default {
+    margin-bottom: 40px;
+}
+
 .uk-button {
     font-size: 1.125rem !important;
 }
@@ -24,9 +32,12 @@
 
 @media only screen and (min-width: 1200px) {
     .uk-card-body {
-        padding: 10px 30px 20px 30px !important;
+        padding: 10px 40px 20px 40px !important;
     }
     .uk-card-footer {
         padding: 10px 40px 10px 40px !important;
+    }
+    .uk-card-header {
+        padding: 15px 40px 15px 40px !important;
     }
 }

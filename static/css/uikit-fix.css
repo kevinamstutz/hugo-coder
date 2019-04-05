@@ -1,0 +1,32 @@
+.uk-h3 {
+    font-size: 2.4rem !important;
+    line-height: 2.8rem !important;
+    font-family: Lato,Helvetica,sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.uk-card-body {
+    padding: 10px 40px 20px 40px !important;
+}
+
+.uk-card-footer {
+    padding: 10px 40px 10px 40px !important;
+}
+
+.uk-button {
+    font-size: 1.125rem !important;
+}
+
+.uk-p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .uk-card-body {
+        padding: 10px 30px 20px 30px !important;
+    }
+    .uk-card-footer {
+        padding: 10px 40px 10px 40px !important;
+    }
+}

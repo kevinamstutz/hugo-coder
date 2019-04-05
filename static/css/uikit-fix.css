@@ -25,6 +25,10 @@
     font-size: 1.125rem !important;
 }
 
+.uk-h5 {
+    font-style: italic !important;
+}
+
 .uk-p {
     margin-top: 0 !important;
     margin-bottom: 0 !important;

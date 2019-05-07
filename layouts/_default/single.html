@@ -1,6 +1,9 @@
 {{ define "title" }}
   {{ .Title }} {{ .Site.Title }}
 {{ end }}
+{{ define "description" }}
+  {{ .Description | default .Site.Params.Description }}
+{{ end }}
 {{ define "content" }}
   {{ partial "page.html" . }}
 {{ end }}

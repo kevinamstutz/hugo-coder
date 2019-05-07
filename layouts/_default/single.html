@@ -2,7 +2,7 @@
   {{ .Title }} {{ .Site.Title }}
 {{ end }}
 {{ define "description" }}
-  {{ .Description | default .Site.Params.Description }}
+  {{ .Description | default .Site.Params.description }}
 {{ end }}
 {{ define "content" }}
   {{ partial "page.html" . }}
